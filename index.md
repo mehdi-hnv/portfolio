@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Home
 description: "Home of Mehdi's portfolio website"
 page_id: home
