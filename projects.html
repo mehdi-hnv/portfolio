@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project work by Mehdi L.">
+  <title>Projects | Mehdi</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header" data-page="projects">
+    <div class="brand">
+      <a href="index.html">Mehdi</a>
+      <p>Creative Technologist</p>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <span class="sr-only">Toggle navigation</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="primaryNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Projects</p>
+      <h1>Case studies rooted in community impact.</h1>
+      <p class="lead">Each project pairs thoughtful research with delightful interactions—and ships with documentation for future contributors.</p>
+    </section>
+
+    <section class="project-grid" aria-label="Project cards">
+      <article class="project-card">
+        <img src="assets/images/project1.svg" alt="Visualization for Project 1" width="480" height="320">
+        <div>
+          <p class="eyebrow">Project 1</p>
+          <h2>Campus Compass</h2>
+          <p>Progressive web app that helps new students discover events, mentors, and study spaces via curated, location-aware recommendations.</p>
+          <ul class="tag-list">
+            <li>TypeScript</li>
+            <li>PWA</li>
+            <li>Accessibility</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary" href="https://github.com/mehdicode/campus-compass" target="_blank" rel="noreferrer">View Code</a>
+            <a class="btn ghost" href="https://campus-compass.example.com" target="_blank" rel="noreferrer">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="assets/images/project2.svg" alt="Visualization for Hour of Code project" width="480" height="320">
+        <div>
+          <p class="eyebrow">Hour of Code</p>
+          <h2>CodeQuest Workshops</h2>
+          <p>Interactive Hour of Code curriculum mixing storytelling, drag-and-drop coding, and unplugged activities for middle school classrooms.</p>
+          <ul class="tag-list">
+            <li>Education</li>
+            <li>Scratch</li>
+            <li>Curriculum</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary" href="https://github.com/mehdicode/codequest" target="_blank" rel="noreferrer">Curriculum repo</a>
+            <a class="btn ghost" href="https://hourofcode.com" target="_blank" rel="noreferrer">Program info</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="assets/images/project3.svg" alt="Visualization for Design System" width="480" height="320">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h2>Commons Design System</h2>
+          <p>Open-source design system for student clubs featuring accessible components, robust documentation, and zero-dependency tooling.</p>
+          <ul class="tag-list">
+            <li>Design Systems</li>
+            <li>Sass</li>
+            <li>Storybook</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary" href="https://github.com/mehdicode/commons-design" target="_blank" rel="noreferrer">View Storybook</a>
+            <a class="btn ghost" href="mailto:mehdi@example.com">Request access</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mehdi L. All rights reserved.</p>
+    <a href="https://github.com/mehdi/portfolio-site" target="_blank" rel="noreferrer">Website repository</a>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
