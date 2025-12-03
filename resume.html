@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Dev Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-satellite"></i> DEV PORTAL
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="resume.html" class="nav-link active">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Page -->
+    <main>
+        <section class="page-header">
+            <h1>Resume</h1>
+            <p class="subtitle">The Professional Version (Still Honest)</p>
+            <a href="resume.pdf" class="btn btn-primary" download>
+                <i class="fas fa-download"></i> Download PDF
+            </a>
+        </section>
+
+        <section class="resume-section">
+            <div class="container resume-container">
+                <div class="resume-content">
+                    <!-- Contact Info -->
+                    <div class="resume-header">
+                        <h2>Your Name</h2>
+                        <p class="resume-contact">
+                            <i class="fas fa-envelope"></i> your.email@example.com | 
+                            <i class="fas fa-phone"></i> (123) 456-7890 | 
+                            <i class="fas fa-map-marker-alt"></i> City, State
+                        </p>
+                        <p class="resume-contact">
+                            <i class="fab fa-github"></i> github.com/yourname | 
+                            <i class="fab fa-linkedin"></i> linkedin.com/in/yourname
+                        </p>
+                    </div>
+
+                    <!-- Professional Summary -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Professional Summary</h3>
+                        <p>
+                            Full-stack developer with X years of experience building scalable web applications. 
+                            Proven track record of delivering high-impact solutions on time and within budget. 
+                            Strong technical foundation with expertise in modern web technologies and best practices.
+                        </p>
+                    </div>
+
+                    <!-- Technical Skills -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Technical Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <strong>Languages:</strong> JavaScript, Python, HTML5, CSS3, SQL
+                            </div>
+                            <div class="skill-item">
+                                <strong>Frontend:</strong> React, Vue.js, Responsive Design, CSS Frameworks
+                            </div>
+                            <div class="skill-item">
+                                <strong>Backend:</strong> Node.js, Express, REST APIs, Database Design
+                            </div>
+                            <div class="skill-item">
+                                <strong>Tools & Platforms:</strong> Git, Docker, AWS, Linux, VS Code, Firebase
+                            </div>
+                            <div class="skill-item">
+                                <strong>Methodologies:</strong> Agile, SCRUM, RESTful Architecture, MVC Pattern
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Professional Experience</h3>
+                        
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Senior Developer / Tech Lead</h4>
+                                <span class="resume-date">2023 - Present</span>
+                            </div>
+                            <p class="resume-company">Company Name | City, State</p>
+                            <ul class="resume-list">
+                                <li>Led development of critical features for high-traffic application serving 500K+ users</li>
+                                <li>Architected and implemented microservices infrastructure, improving system scalability by 300%</li>
+                                <li>Mentored 5+ junior developers, establishing code standards and best practices</li>
+                                <li>Reduced API response time from 5s to 200ms through performance optimization</li>
+                                <li>Managed deployment pipeline and infrastructure, achieving 99.9% uptime</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Full-Stack Developer</h4>
+                                <span class="resume-date">2020 - 2023</span>
+                            </div>
+                            <p class="resume-company">Previous Company | City, State</p>
+                            <ul class="resume-list">
+                                <li>Built and maintained 15+ production web applications using React and Node.js</li>
+                                <li>Implemented responsive designs ensuring optimal user experience across all devices</li>
+                                <li>Developed RESTful APIs handling 10M+ requests monthly with 99%+ uptime</li>
+                                <li>Collaborated with cross-functional teams in agile sprint cycles</li>
+                                <li>Reduced bundle size by 40% through code splitting and optimization</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Junior Developer</h4>
+                                <span class="resume-date">2018 - 2020</span>
+                            </div>
+                            <p class="resume-company">First Company | City, State</p>
+                            <ul class="resume-list">
+                                <li>Developed frontend components for main product using HTML, CSS, and JavaScript</li>
+                                <li>Assisted in database design and optimization for mission-critical systems</li>
+                                <li>Wrote unit and integration tests, improving code coverage from 20% to 85%</li>
+                                <li>Fixed production bugs and implemented urgent hotfixes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Education</h3>
+                        
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Bachelor of Science in Computer Science</h4>
+                                <span class="resume-date">2014 - 2018</span>
+                            </div>
+                            <p class="resume-company">University Name | City, State</p>
+                            <p>GPA: 3.8/4.0 | Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Full-Stack Web Development Bootcamp</h4>
+                                <span class="resume-date">2019</span>
+                            </div>
+                            <p class="resume-company">Codecademy / Udacity | Online</p>
+                            <p>Intensive 12-week program covering full-stack development, databases, and deployment</p>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Certifications</h3>
+                        <ul class="resume-list">
+                            <li><strong>AWS Certified Solutions Architect</strong> - Associate Level (2022)</li>
+                            <li><strong>Google Cloud Associate Cloud Engineer</strong> (2023)</li>
+                            <li><strong>React Professional Certification</strong> - Codecademy (2021)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Additional Info -->
+                    <div class="resume-section-block">
+                        <h3 class="resume-section-title">Additional Information</h3>
+                        <p><strong>Languages:</strong> English (Native), Spanish (Fluent), [Other Language] (Intermediate)</p>
+                        <p><strong>Open Source:</strong> Active contributor to [Project Name], [Project Name]</p>
+                        <p><strong>Publications:</strong> Blog posts on web development, optimization techniques</p>
+                    </div>
+                </div>
+
+                <aside class="resume-sidebar">
+                    <div class="resume-card">
+                        <h4><i class="fas fa-star"></i> Quick Facts</h4>
+                        <ul>
+                            <li>X years experience</li>
+                            <li>X projects shipped</li>
+                            <li>X users served</li>
+                            <li>X% code coverage</li>
+                            <li>0 missed deadlines</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-card">
+                        <h4><i class="fas fa-brain"></i> Top Skills</h4>
+                        <div class="resume-skill-bar">
+                            <div class="skill-name">React</div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                        </div>
+                        <div class="resume-skill-bar">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="resume-skill-bar">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                        </div>
+                        <div class="resume-skill-bar">
+                            <div class="skill-name">AWS</div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="resume-skill-bar">
+                            <div class="skill-name">System Design</div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" title="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://codecademy.com" target="_blank" title="Codecademy">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Repository</h4>
+                <p>
+                    <a href="https://github.com/yourusername/site1101-portfolio" target="_blank" class="repo-link">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4>Location</h4>
+                <p>Somewhere in the digital void</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dev Portal. Built with code and attitude. No templates were harmed.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
