@@ -13,12 +13,3 @@ if (navToggle && primaryNav) {
 if (yearTarget) {
   yearTarget.textContent = new Date().getFullYear();
 }
-
-const header = document.querySelector('.site-header');
-if (header) {
-  const observer = new IntersectionObserver(
-    ([entry]) => header.classList.toggle('is-floating', !entry.isIntersecting),
-    { threshold: 1 }
-  );
-  observer.observe(header);
-}

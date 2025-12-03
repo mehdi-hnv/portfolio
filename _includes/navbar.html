@@ -1,0 +1,11 @@
+{% assign current = page.url | default: '/' %}
+<nav class="site-nav" id="primaryNav">
+  <ul>
+    {% for link in site.nav_links %}
+      {% assign is_active = current == link.url %}
+      <li>
+        <a href="{{ link.url | relative_url }}" class="{% if is_active %}active{% endif %}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
