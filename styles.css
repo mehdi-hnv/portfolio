@@ -980,10 +980,12 @@ body::before {
     border: 2px solid var(--accent-neon);
     color: var(--accent-neon);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 500px;
     font-weight: bold;
     transition: var(--transition);
     font-size: 14px;
+    margin-top: -20px;
+    margin-left: 200px;
 }
 
 .link-btn:hover {
@@ -995,7 +997,7 @@ body::before {
 /* Projects Grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
