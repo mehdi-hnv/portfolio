@@ -512,22 +512,20 @@ body::before {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    background: linear-gradient(135deg, var(--accent-neon), var(--accent-purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    position: relative;
-    z-index: 10;
+
+    /* NEW: solid high-contrast text */
+    color: var(--accent-neon);
+
+    text-shadow:
+        0 0 10px rgba(0, 255, 136, 0.6),
+        0 0 25px rgba(0, 255, 136, 0.4);
 }
 
 .page-header .subtitle {
-    font-size: 20px;
-    color: var(--accent-cyan);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    position: relative;
-    z-index: 10;
+    font-size: 18px;
+    color: #011520; /* brighter cyan-white */
+    text-shadow: 0 0 8px rgba(0, 217, 255, 0.6);
+    margin-bottom: 25px;
 }
 
 /* ===========================
@@ -1308,8 +1306,9 @@ body::before {
     height: 100%;
     background: linear-gradient(90deg, var(--accent-neon), var(--accent-cyan));
     border-radius: 5px;
-    animation: fillBar 1s ease-out forwards;
     box-shadow: 0 0 10px var(--accent-neon);
+    width: 0;
+    transition: width 1s ease-out;
 }
 
 /* ===========================
