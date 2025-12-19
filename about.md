@@ -30,14 +30,12 @@ title: About
             </div>
         </div>
     </nav>
-
     <!-- About Page Content -->
     <main>
         <section class="page-header">
             <h1>About Me</h1>
             <p class="subtitle">Background, Skills, and Academic Journey</p>
         </section>
-
         <section class="about-section">
             <div class="container">
                 <div class="about-grid">
@@ -67,7 +65,6 @@ title: About
                 </div>
             </div>
         </section>
-
         <section class="skills-section">
             <div class="container">
                 <h2 class="section-title">Technical Skills</h2>
@@ -102,7 +99,6 @@ title: About
                 </div>
             </div>
         </section>
-
         <section class="experience-section">
             <div class="container">
                 <h2 class="section-title">Experience</h2>
@@ -146,7 +142,6 @@ title: About
                 </div>
             </div>
         </section>
-
         <section class="education-section">
             <div class="container">
                 <h2 class="section-title">Education & Certifications</h2>
@@ -176,7 +171,6 @@ title: About
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -204,7 +198,6 @@ title: About
             <p>&copy; 2025 Mehdi Hasanov. Built with the help of AI and attitude.</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

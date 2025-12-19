@@ -6,7 +6,7 @@ title: Projects
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Dev Portal</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -30,14 +30,12 @@ title: Projects
             </div>
         </div>
     </nav>
-
     <!-- Projects Page Content -->
     <main>
         <section class="page-header">
             <h1>My Projects</h1>
             <p class="subtitle">Real Work. Real Impact.</p>
         </section>
-
         <section class="projects-section">
             <div class="container">
                 <!-- Project 1 -->
@@ -62,7 +60,6 @@ title: Projects
                         </div>
                     </div>
                 </div>
-
                 <!-- Project 2 -->
                 <div class="project-card featured-project">
                     <div class="project-image">
@@ -85,7 +82,6 @@ title: Projects
                         </div>
                     </div>
                 </div>
-
                 <!-- Additional Projects Grid -->
                 <h2 class="section-title" style="margin-top: 60px;">Other Work</h2>
                 <div class="projects-grid">
@@ -104,7 +100,6 @@ title: Projects
                             <span class="tag-small">Python</span>
                         </div>
                     </div>
-
                     <div class="project-card-compact">
                         <div class="project-image-small">
                             <img src="assets/images/project4-thumbnail.jpg" alt="Project 4">
@@ -115,7 +110,6 @@ title: Projects
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -143,7 +137,6 @@ title: Projects
             <p>&copy; 2025 Mehdi Hasanov. Built with the help of AI and attitude.</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
