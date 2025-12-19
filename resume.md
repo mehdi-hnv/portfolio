@@ -35,7 +35,7 @@ title: Resume
         <section class="page-header">
             <h1>Resume</h1>
             <p class="subtitle">The Professional Version (Still Honest)</p>
-            <a href="resume.pdf" class="btn btn-primary" download>
+            <a href="assets/resume.pdf" class="btn btn-primary" download>
                 <i class="fas fa-download"></i> Download PDF
             </a>
         </section>

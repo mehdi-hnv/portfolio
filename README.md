@@ -1,5 +1,6 @@
 # Dev Portal - Your Space-Themed Portfolio Website
 
+Initial website structure was generated using AI (Cursor). The final design, content, structure, and debugging were significantly modified, rewritten, and completed manually
 A professional, responsive portfolio website with a bold black space theme, neon accents, and an honest, no-nonsense personality.
 
 ## 🌌 Features
@@ -35,6 +36,24 @@ site1101-portfolio/
 ├── project4-thumbnail.jpg
 ├── project5-thumbnail.jpg
 └── README.md           # This file
+```
+was before now it is
+```
+portfolio/
+├── index.md          
+├── about.md
+├── projects.md
+├── resume.md
+├── README.md                    # This file
+├── _layouts ── default.html
+└──assets────├── css ── styles.css
+             ├── js ── script.js
+             ├── images ├── profile.jpg
+                        ├── about-photo.jpg
+                        ├── project1-screenshot.jpg
+                        ├── project2-screenshot.jpg
+                        ├── project3-thumbnail.jpg
+                        └── project4-thumbnail.jpg
 ```
 
 ## 🎨 Customization Guide
