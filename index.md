@@ -29,7 +29,6 @@ title: Home
             </div>
         </div>
     </nav>
-
     <!-- Home Page Hero Section -->
     <main>
         <section class="hero">
