@@ -30,7 +30,6 @@ title: Resume
             </div>
         </div>
     </nav>
-
     <!-- Resume Page -->
     <main>
         <section class="page-header">
@@ -40,7 +39,6 @@ title: Resume
                 <i class="fas fa-download"></i> Download PDF
             </a>
         </section>
-
         <section class="resume-section">
             <div class="container resume-container">
                 <div class="resume-content">
@@ -56,7 +54,6 @@ title: Resume
                             <i class="fab fa-github"></i> github.com/mehdi-hnv
                         </p>
                     </div>
-
                     <!-- Professional Summary -->
                     <div class="resume-section-block">
                         <h3 class="resume-section-title">Professional Summary</h3>
@@ -67,7 +64,6 @@ title: Resume
                             improve applications through hands-on projects and experimentation.
                         </p>
                     </div>
-
                     <!-- Technical Skills -->
                     <div class="resume-section-block">
                         <h3 class="resume-section-title">Technical Skills</h3>
@@ -86,11 +82,9 @@ title: Resume
                             </div>
                         </div>
                     </div>
-
                     <!-- DEVELOPMENT EXPERIENCE -->
                     <div class="resume-section-block">
-                        <h3 class="resume-section-title">Development Experience</h3>
-                        
+                        <h3 class="resume-section-title">Development Experience</h3>                
                         <div class="resume-item">
                             <div class="resume-item-header">
                                 <h4>Learning Python & Basic Algorithms</h4>
@@ -102,7 +96,6 @@ title: Resume
                                 <li>Developed foundational problem-solving skills and a habit of writing clean, maintainable code.</li>
                             </ul>
                         </div>
-
                         <div class="resume-item">
                             <div class="resume-item-header">
                                 <h4>Python Fundamentals & Chess Knight Project</h4>
@@ -115,7 +108,6 @@ title: Resume
                                 <li>Practiced structured programming, algorithm design, and debugging techniques.</li>
                             </ul>
                         </div>
-
                         <div class="resume-item">
                             <div class="resume-item-header">
                                 <h4>AI Applications with Python & Flask</h4>
@@ -129,20 +121,17 @@ title: Resume
                             </ul>
                         </div>
                     </div>
-
                     <!-- Education -->
                     <div class="resume-section-block">
                         <h3 class="resume-section-title">Education</h3>
-                        
                         <div class="resume-item">
                             <div class="resume-item-header">
                                 <h4>Bachelor of Science in Computer Engineering</h4>
                                 <span class="resume-date">2025 - 2029</span>
                             </div>
                             <p class="resume-company">ADA | Baku, Azerbaijan</p>
-                            <p>GPA: 3.8/4.0 | Relevant Coursework: Data & Computing Skills, Principles of Information Systems.</p>
+                            <p>GPA: ???/4.0 | Relevant Coursework: Data & Computing Skills, Principles of Information Systems.</p>
                         </div>
-
                         <div class="resume-item">
                             <div class="resume-item-header">
                                 <h4>Learning C++</h4>
@@ -153,7 +142,6 @@ title: Resume
                             <p>Strengthened problem-solving skills and understanding of programming concepts beyond Python.</p>
                         </div>
                     </div>
-
                     <!-- Certifications -->
                     <div class="resume-section-block">
                         <h3 class="resume-section-title">Certifications</h3>
@@ -163,14 +151,12 @@ title: Resume
                             <li><strong>Codecademy</strong> - C++ Introduction (2025)</li>
                         </ul>
                     </div>
-
                     <!-- Additional Info -->
                     <div class="resume-section-block">
                         <h3 class="resume-section-title">Additional Information</h3>
                         <p><strong>Languages:</strong> English (Advanced), Azerbaijani (Fluent), Turkish (Intermediate), Russian (Fluent), Chinese (Beginner)</p>
                     </div>
                 </div>
-
                 <aside class="resume-sidebar">
                     <div class="resume-card">
                         <h4><i class="fas fa-star"></i> Quick Facts</h4>
@@ -181,7 +167,6 @@ title: Resume
                             <li>0 missed deadlines</li>
                         </ul>
                     </div>
-
                     <div class="resume-card">
                         <h4><i class="fas fa-brain"></i> Top Skills</h4>
                         <div class="resume-skill-bar">
@@ -209,7 +194,6 @@ title: Resume
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -237,7 +221,6 @@ title: Resume
             <p>&copy; 2025 Mehdi Hasanov. Built with the help of AI and attitude.</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

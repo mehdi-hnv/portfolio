@@ -60,7 +60,7 @@ title: About
                         </p>
                     </div>
                     <div class="about-image">
-                        <img src="about-photo.jpg" alt="About Photo" class="about-photo">
+                        <img src="assets/images/about-photo.jpg" alt="About Photo" class="about-photo">
                     </div>
                 </div>
             </div>
