@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Projects
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">

@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Resume
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
